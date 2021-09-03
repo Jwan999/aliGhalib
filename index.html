@@ -5,163 +5,287 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <title>AJA</title>
     <link rel="stylesheet" href="tailwindcss.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap');
+
         a {
             font-family: 'Tajawal', sans-serif;
             font-weight: 400;
         }
-        
+
         p {
             font-family: 'Tajawal', sans-serif;
             font-weight: 400;
         }
-        
+
         .a {
             text-align: right;
         }
-        
+
         html {
             scroll-behavior: smooth;
+        }
+
+        #more {
+            display: none;
         }
     </style>
 </head>
 
 <body>
-    <div class="w-full bg-white shadow-md  flex justify-between items-center ">
-        <div class="ml-8 flex justify-between space-x-8 text-xl h-full">
-            <div class="py-10 px-3 border-b-4 border-transparent hover:border-yellow-400">
-                <a href="#about">من نحن</a>
-            </div>
-            <div class="py-10 px-3 border-b-4 border-transparent hover:border-yellow-400"><a class="" href="#service ">خدماتنا</a></div>
-            <div class="py-10 px-3 border-b-4 border-transparent hover:border-yellow-400"><a href="#goals ">اهدافنا</a></div>
-            <div class="py-10 px-3 border-b-4 border-transparent hover:border-yellow-400"><a href="#mission ">مهمتنا</a></div>
-            <div class="py-10 px-3 border-b-4 border-transparent hover:border-yellow-400"><a href="#vision ">رؤيتنا</a></div>
+
+<div class="w-full bg-white shadow-md flex justify-center lg:flex lg:justify-between lg:items-center">
+    <div class="ml-8 flex lg:justify-between   space-x-8 text-xl h-full">
+        <div class="hidden lg:py-10 lg:px-3 lg:border-b-4 lg:border-transparent lg:hover:border-yellow-400 lg:flex">
+            <a href="#about">من نحن</a>
         </div>
-        <div class="mr-8 ">
-            <img class=" w-24 h-24 " src="The Logo.svg " alt="logo ">
+        <div class="hidden lg:py-10 lg:px-3 lg:border-b-4 lg:border-transparent lg:hover:border-yellow-400 lg:flex"><a
+                class="" href="#service1 ">خدماتنا</a></div>
+        <div class="hidden lg:py-10 lg:px-3 lg:border-b-4 lg:border-transparent lg:hover:border-yellow-400 lg:flex"><a
+                href="#goals ">اهدافنا</a>
+        </div>
+        <div class="hidden lg:py-10 lg:px-3 lg:border-b-4 lg:border-transparent lg:hover:border-yellow-400 lg:flex"><a
+                href="#mission ">مهمتنا</a>
+        </div>
+        <div class="hidden lg:py-10 lg:px-3 lg:border-b-4 lg:border-transparent lg:hover:border-yellow-400 lg:flex"><a
+                href="#vision ">رؤيتنا</a>
         </div>
     </div>
-    <div class="animate__fadeInUp">
-        <div style="background-image: url(background.png); background-repeat: no-repeat ;" class="animate__animated animate__fadeInUp ">
-            <div class="">
-                <div class="" data-aos="fade-right">
-                    <img src=" The Logo.svg " alt=" " class="pt-12 pl-52">
-                    <p class="pl-28 mt-16 text-xl"><b>خطواتك الأولى في بدء مشروعك
+    <div class="mr-8 ">
+        <img class=" w-24 h-24  " src="The Logo.svg " alt="logo ">
+    </div>
+</div>
+<div class="lg:hidden">
+    <img src="IMG_2694.PNG" alt="">
+</div>
+<div class="  animate__fadeInUp">
+    <div style="background-image: url(background.png); background-repeat: no-repeat ;"
+         class="animate__animated animate__fadeInUp hidden lg:flex ">
+        <div class="">
+            <div class="" data-aos="fade-right">
+                <img src=" The Logo.svg " alt=" " class="pt-12 pl-52">
+                <p class="pl-28 mt-16 text-xl"><b>خطواتك الأولى في بدء مشروعك
                     الناجح في عربات المطاعم المتنقلة</b></p>
-                    <p class="pl-8 mt-4 text-xl pb-64">اول شركة عراقية مختصة في تصميم وتصنيع عربات متنقلة جميع المقاسات والاشكال</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="px-8">
-        <div class="mt-8 flex justify-between bg-green-600 text-white rounded-2xl px-4 shadow-xl ">
-            <div class="w-3/4 mx-12 mt-8 mb-8 ">
-                <p class="text-4xl mb-4 a">من نحن</p>
-                <p class="text-2xl a"> منذ نشأتها لتصبح إحدى الشركات العراقية الرائدة في تصميم وتصنيع نمت شركة العربات المتنقلة من جميع المقاسات والأشكال، فـ لقد طورنا جيلا جديدا من العربات المتنقلـة الصديقة للبيئة، وكنا ولا زلنا نقدر الكفاءة ونسعى دائما للتركيز على تقديم الأفضل
-                    من خلال العمل عن كثب مع عملائنا لفهم احتياجاتهم وتقديم خدمات ومنتجات عالية الجودة، ونحترم جميع أعضاء فريقنا ونقدر كل دور باعتبارهم رابطا رئيسيا في سلسة النمو التي نتبعها، كذلك ندرك ونقدر فردية عملائنا واحتياجاتهم الخاصة، وبالتالي ستكون
-                    منتجاتنا وخدماتنا على أعلى مستوى من حيث الجودة والقيمة، ونعمل بشكل فردي مع عملائنا بداية من عملية التصميـم مـرورا بالهندسة والتصنيع والتركيب، وتقديم خدمة ما بعد البيع والتصنيع وصيانة لمدة سنة مجانا
+                <p class="pl-8 mt-4 text-xl pb-64">اول شركة عراقية مختصة في تصميم وتصنيع عربات متنقلة جميع المقاسات
+                    والاشكال
                 </p>
             </div>
-            <div class=" w-1/4 ">
-                <img src="About us page-amico.svg" alt="cart 1 ">
+        </div>
+    </div>
+</div>
+<div id="about" class="lg:px-8 px-4">
+    <div class="mt-4 lg:flex lg:justify-between lg:bg-green-600 lg:text-white lg:rounded-2xl px-4 lgs:hadow-xl pb-4 pt-2 ">
+        <div class="  lg:hidden w-12/3 w-full pb-4">
+            <img src="About us page-amico.svg" alt="cart 1 ">
+        </div>
+        <div class="lg:w-3/4 lg:mx-12 mt-8 mb-8  ">
+            <p class="lg:text-4xl text-2xl mb-4 text-2xl a">من نحن</p>
+            <p class="lg:text-2xl text-xl a"> منذ نشأتها لتصبح إحدى الشركات العراقية الرائدة في تصميم وتصنيع نمت شركة
+                العربات المتنقلة من جميع المقاسات والأشكال، فـ لقد طورنا جيلا جديدا من العربات المتنقلـة الصديقة للبيئة،
+                وكنا ولا زلنا نقدر الكفاءة ونسعى دائما للتركيز على تقديم الأفضل
+                من خلال العمل عن كثب مع عملائنا لفهم احتياجاتهم وتقديم خدمات ومنتجات عالية الجودة،
+                <span id="dots">...</span> ونحترم جميع أعضاء <span id="more">
+                    فريقنا ونقدر كل دور باعتبارهم رابطا رئيسيا في سلسة النمو التي نتبعها، كذلك ندرك ونقدر فردية عملائنا
+                    واحتياجاتهم الخاصة، وبالتالي ستكون
+                    منتجاتنا وخدماتنا على أعلى مستوى من حيث الجودة والقيمة، ونعمل بشكل فردي مع عملائنا بداية من عملية
+                    التصميـم مـرورا بالهندسة والتصنيع والتركيب، وتقديم خدمة ما بعد البيع والتصنيع وصيانة لمدة سنة مجانا
+                </span>
+            </p>
+            <button class="" onclick="myFunction()" id="myBtn">اقرأ المزيد</button>
+        </div>
+        <div class=" hidden lg:flex lg:w-1/4 w-full pb-4">
+            <img src="About us page-amico.svg" alt="cart 1">
+        </div>
+    </div>
+</div>
+
+<div id="service1" class="mt-12 items-center " data-aos="zoom-in-up ">
+    <div class="mt-8 lg:flex lg:justify-between  pb-4 pt-4 ">
+        <div class="  lg:hidden w-32 w-full pb-4 pl-8">
+            <img src="Street Food-pana (2).svg" alt="cart 1 ">
+        </div>
+        <div class="lg:w-3/4 lg:mx-12 lg:mt-24   ">
+            <p class="lg:text-4xl text-2xl mb-4 mx-4 text-2xl a">خدماتنا</p>
+            <p class="lg:text-2xl text-xl mx-4 a">تتمثل منتجاتنا في صناعة عربات (الـكوفي، مطعم، حلاقة، مكتبة، ايس كريم،
+                استديو تصوير، ميني ماركت) وتفصيل أكشاك وبوثات جميع المقاسات يمكننا العمل معك لتصميم وتصنيع الأغطية
+                المخمصة لتناسب كشكك، يمكننا المساعدة في تصميم عربة بجودة ممتازة، وسهلة
+                الاستخدام، وتعزز المظهر العام للكشك
+
+
+            </p>
+        </div>
+        <div class="items-center hidden lg:flex lg:w-1/4 w-full ">
+            <img src="Street Food-pana (2).svg" alt="cart 1">
+        </div>
+
+    </div>
+    <div>
+        <div class="grid justify-items-center grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="lg:p-10 p-6 bg-green-600 rounded-md">
+                <img class="lg:w-80 lg:h-80 w-48 h-44 object-cover rounded-md" src="عربات متنقلة.jpg" alt="">
+                <p class="text-white text-center mt-6">عربات متنقلة</p>
             </div>
+
+            <div class="lg:p-10 p-6 bg-green-600 rounded-md">
+                <img class="w-80 h-auto rounded-md " src="منازل جاهزة.jpg" alt="">
+                <p class="text-white text-center mt-6">منازل جاهزة</p>
+            </div>
+            <div class="lg:p-10 p-6 bg-green-600 rounded-md">
+                <img class="lg:w-80 lg:h-80 w-48 h-28 object-cover rounded-md" src="هياكل حديدية.jpg" alt="">
+                <p class="text-white text-center mt-6">هياكل حديدية</p>
+            </div>
+            <div class="lg:p-10 p-6 bg-green-600 rounded-md">
+                <img class="w-80 h-auto rounded-md" src="كشك.jpg" alt="">
+                <p class="text-white text-center mt-6">اكشاك</p>
+            </div>
+            <div class="lg:p-10 p-6 bg-green-600 rounded-md">
+                <img class="w-80 h-auto rounded-md" src="كرفان.jpg" alt="">
+                <p class="text-white text-center mt-6">كرفانات</p>
+            </div>
+            <div class="lg:p-10 p-6 bg-green-600 rounded-md">
+                <img class="w-80 h-auto rounded-md" src="بوثات.jpg" alt="">
+                <p class="text-white text-center mt-6">بوثات</p>
+            </div>
+
         </div>
     </div>
     <div class="mt-2 " id="vision"></div>
     <div data-aos="zoom-in-up">
-        <div class="mt-4  flex justify-between   ">
-            <div class="w-1/2 mx-12  pt-12">
-                <p class="text-4xl mt-10 mb-4 a ">رؤيتنا </p>
-                <p class="text-2xl mt-12 a">في مواصلة تراث شركتنا وأن نكون شركة رائدة في تقديم منتجات تتمثل رؤية وخدمات عالية الجودة، ونكرس أنفسنا لنكون المورد المفضل عند البحث عن نوع منتجاتنا وخدماتنا، وسيتم تحقيق هذه الرؤية من خلال العمل بشكل جماعي مع جميع موظفينا، وسنسعى جاهدين
-                    للحفاظ على الصورة التي طورناها على مدى سنوات عملن
+        <div class="mt-8 lg:flex lg:justify-between  pb-4 pt-4 ">
+            <div class="  lg:hidden w-32 w-full pb-4 pl-8">
+                <img src="Create-rafiki.svg" alt="cart 1 ">
+            </div>
+            <div class="lg:w-3/4 lg:mx-12 mt-8 mb-8  ">
+                <p class="lg:text-4xl text-2xl mb-4 mx-4 text-2xl a">رؤيتنا</p>
+                <p class="lg:text-2xl text-xl mx-4 a"> في مواصلة تراث شركتنا وأن نكون شركة رائدة في تقديم منتجات تتمثل
+                    رؤية وخدمات عالية الجودة، ونكرس أنفسنا لنكون المورد المفضل عند البحث عن نوع منتجاتنا وخدماتنا، وسيتم
+                    تحقيق هذه الرؤية من خلال العمل بشكل جماعي مع جميع موظفينا، وسنسعى
+                    جاهدين للحفاظ على الصورة التي طورناها على مدى سنوات عمل
                 </p>
             </div>
-            <div class=" w-1/2">
-                <img class="" src="Create-rafiki.svg" alt="cart 2 ">
+            <div class=" hidden lg:flex lg:w-1/4 w-full pb-4">
+                <img src="Create-rafiki.svg" alt="cart 1">
             </div>
         </div>
+
         <div class="mt-2" id="mission"></div>
-        <div class="=" data-aos="zoom-in-up">
-            <div class="mt-4  flex justify-between   ">
-                <div class="w-1/2 mx-12 ">
-                    <p class="text-4xl mb-4 a">مهمتنا </p>
-                    <p class="text-2xl a">هي إنتاج منتجات عالية الجودة وتطويرها باستمرار وبأسعار تنافسية مع تعزيـز منـاخ يمكـن أن تزدهـر فيـه التقنيات البيئية، سنسعى دائما إلى خدمة عملائنا بأقصى درجات النزاهـة وإرضائهـم التـام، وخلق فرص عمل من خلال مساعدة الشباب في فتح مشاريعهم
-                        الصغيرة والبدء بإنشاء مشاريعهم
+        <div class="" data-aos="zoom-in-up">
+            <div class="mt-8 lg:flex lg:justify-between  pb-4 pt-4 ">
+                <div class="  lg:hidden w-32 w-full pb-4 pl-8">
+                    <img src="undraw_street_food_hm5i.svg" alt="cart 1 ">
+                </div>
+                <div class="lg:w-3/4 lg:mx-12 mt-8 mb-8  ">
+                    <p class="lg:text-4xl text-2xl mb-4 mx-4 text-2xl a">مهمتنا</p>
+                    <p class="lg:text-2xl text-xl mx-4 a">
+                        هي إنتاج منتجات عالية الجودة وتطويرها باستمرار وبأسعار تنافسية مع تعزيـز منـاخ يمكـن أن تزدهـر
+                        فيـه التقنيات البيئية، سنسعى دائما إلى خدمة عملائنا بأقصى درجات النزاهـة وإرضائهـم التـام، وخلق
+                        فرص عمل من خلال مساعدة الشباب في فتح مشاريعهم الصغيرة والبدء
+                        بإنشاء مشاريعهم أهدافنا هدفنا هو ضمان إنتاج مهمتنا من خلال التحسين الذاتي المستمر والنمو في مجال
+                        التصنيع وتجارة العربات المتنقلة مع الحفاظ على الربحية لصالح عملائنا وموظفينا ومجتمعنا، وسيعمل
+                        جميع الموظفين معا في توحيد جهودهم
+                        ومهاراتهـم لضمان تحقيق مهمتنا وأهدافنا بطريقة جيدة
                     </p>
                 </div>
-                <div class=" w-1/2">
-                    <img id="mission" class="" src="undraw_street_food_hm5i.svg" alt="cart 2 ">
+                <div class=" pr-4 hidden lg:flex lg:w-1/4 w-full pb-4">
+                    <img src="undraw_street_food_hm5i.svg" alt="cart 1">
                 </div>
             </div>
-
-            <div id="service" lass="mt-24 pt-12 " data-aos="zoom-in-up ">
-                <div class=" flex justify-between ">
-                    <div class="w-1/2 mx-12 mt-64 ">
-                        <p class="text-4xl mb-4 a ">أهدافنا </p>
-                        <p class="text-2xl a ">هدفنا هو ضمان إنتاج مهمتنا من خلال التحسين الذاتي المستمر والنمو في مجال التصنيع وتجارة العربات المتنقلة مع الحفاظ على الربحية لصالح عملائنا وموظفينا ومجتمعنا، وسيعمل جميع الموظفين معا في توحيد جهودهم ومهاراتهـم لضمان تحقيق مهمتنا
-                            وأهدافنا بطريقة جيدة
+            <div id="goals" lass="mt-24 pt-12 " data-aos="zoom-in-up ">
+                <div class="mt-8 lg:flex lg:justify-between  pb-4 pt-4 ">
+                    <div class="  lg:hidden w-32 w-full pb-4 pl-8">
+                        <img src="Goal-amico.svg" alt="cart 1 ">
+                    </div>
+                    <div class="lg:w-3/4 lg:mx-12  lg:mt-24  ">
+                        <p class="lg:text-4xl text-2xl mb-4 mx-4 text-2xl a">أهدافنا</p>
+                        <p class="lg:text-2xl text-xl mx-4 a">هدفنا هو ضمان إنتاج مهمتنا من خلال التحسين الذاتي المستمر
+                            والنمو في مجال التصنيع وتجارة العربات المتنقلة مع الحفاظ على الربحية لصالح عملائنا وموظفينا
+                            ومجتمعنا، وسيعمل جميع الموظفين معا في توحيد جهودهم ومهاراتهـم لضمان تحقيق
+                            مهمتنا وأهدافنا بطريقة جيدة
                         </p>
                     </div>
-                    <div class=" w-1/2 ">
-                        <img id="goals"  src=" Goal-amico.svg" alt="cart 2 ">
+                    <div class=" hidden lg:flex lg:w-1/4 w-full pb-4">
+                        <img src="Goal-amico.svg" alt="cart 1">
+                    </div>
+                </div>
+
+                <div class="lg:px-8 px-4">
+                    <div class="mt-8 lg:flex lg:justify-between lg:bg-green-600 lg:text-white lg:rounded-2xl px-4 lgs:hadow-xl pb-4 pt-4 ">
+                        <div class=" self-center rounded  lg:hidden w-64 pl-12 pb-4">
+                            <img class="rounded" src="mr.Ahmed.jpg" alt="cart 1 ">
+                        </div>
+                        <div class="lg:w-3/4 lg:mx-12 mt-8 mb-8  ">
+                            <p class="lg:text-4xl text-2xl mb-4 text-2xl a">كلمة مدير المشروع</p>
+                            <p class="lg:text-2xl text-xl a">إنـه لمن دواعي سرورنا أن نقدم شركتنا من خلال هذا الملف. و
+                                توجز الصفحات التاليـة المشاريع التي تأسست في شركتنا الحالية والأهداف المستقبلية والقدرات
+                                العملية ، وتعمل شركة العراق كشركة رائدة في مجال تصميم و وتصنيع العربات المتنقلة
+                                والاكشاك والبوثات وتقديم خدماتها للشباب والبنات لفتح مشاريعهم. وعلى الرغم من الأوقات
+                                الصعبة التـي ووجهتنا في مسيرتنا ، نحن نعتقد اننا وصلنا بنجاح الى مرحلة من الثقة بالنفس.
+                                الاحترام والكرامة. وفخرنا مبني على موظفين
+                                على درجة عالية من الكفائة، وعلى الثقة الممنوحة لنا من العملاء وجميع الناس وفوق كل شيء،
+                                خلق فرص عمل للشباب الخريجين والعاطلين على العمل نتطلع لتحقيق نفس الأهداف والأحلام في
+                                شركتنا ،من المصممين والإداريين أو الفنيين والعمال
+                                ، نحن نعمل جميعا لبناء مستقبل قوي وسلمي ومزدهر
+                            </p>
+                        </div>
+                        <div class=" hidden rounded lg:flex lg:w-1/4 pb-4">
+                            <img class="rounded-xl object-cover w-full" src="mr.Ahmed.jpg" alt="cart 1">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=" w-full bg-green-600 mt-12 p-4 flex justify-between ">
+                        <div>
+                            <p class="a text-2xl text-white ">تواصل معنا</p>
+                        </div>
+                        <div class="flex space-x-4 ">
+                            <a href="mailto:info@example.com "><img class="fill-current text-white w-10 h-10 "
+                                                                    src="email.svg " alt=" "></a>
+                            <a href="https://www.facebook.com/AJACOMPANY8/ "><img class="text-white w-10 h-10 "
+                                                                                  src="facebook-circular-logo.svg "
+                                                                                  alt=" "></a>
+                            <a href=" https://instagram.com/a.j.a_iq?utm_medium=copy_link "><img
+                                    class="text-white w-10 h-10 " src="instagram.svg " alt=" "></a>
+                            <a href="https://wa.link/8gcq55 "><img class="text-white w-10 h-10 " src="whatsapp.svg "
+                                                                   alt=" "></a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div id="service "></div>
-        <div class="mt-12 " data-aos="zoom-in-up ">
-            <div class=" flex justify-between ">
-                <div class="w-1/2 mx-12 mt-52 ">
-                    <p class="text-4xl mb-4 a ">خدماتنا </p>
-                    <p class="text-2xl a ">تتمثل منتجاتنا في صناعة عربات (الـكوفي، مطعم، حلاقة، مكتبة، ايس كريم، استديو تصوير، ميني ماركت) وتفصيل أكشاك وبوثات جميع المقاسات يمكننا العمل معك لتصميم وتصنيع الأغطية المخمصة لتناسب كشكك، يمكننا المساعدة في تصميم عربة بجودة ممتازة،
-                        وسهلة الاستخدام، وتعزز المظهر العام للكشك
-                    </p>
-                </div>
-                <div class=" w-1/2 ">
-                    <img class=" " src="Street Food-pana (2).svg " alt="cart 2 ">
-                </div>
-            </div>
-            <div class="px-8 ">
-                <div class="mt-16 flex justify-between bg-black bg-opacity-50 text-white rounded-2xl px-4 shadow-xl ">
-                    <div class="w-3/4 mx-12 mt-8 mb-8 ">
-                        <p class="text-4xl mb-4 a ">كلمة مدير المشروع</p>
-                        <p class="text-2xl a "> إنـه لمن دواعي سرورنا أن نقدم شركتنا من خلال هذا الملف. و توجز الصفحات التاليـة المشاريع التي تأسست في شركتنا الحالية والأهداف المستقبلية والقدرات العملية ، وتعمل شركة العراق كشركة رائدة في مجال تصميم و وتصنيع العربات المتنقلة
-                            والاكشاك والبوثات وتقديم خدماتها للشباب والبنات لفتح مشاريعهم. وعلى الرغم من الأوقات الصعبة التـي ووجهتنا في مسيرتنا ، نحن نعتقد اننا وصلنا بنجاح الى مرحلة من الثقة بالنفس. الاحترام والكرامة. وفخرنا مبني على موظفين على درجة
-                            عالية من الكفائة، وعلى الثقة الممنوحة لنا من العملاء وجميع الناس وفوق كل شيء، خلق فرص عمل للشباب الخريجين والعاطلين على العمل نتطلع لتحقيق نفس الأهداف والأحلام في شركتنا ،من المصممين والإداريين أو الفنيين والعمال ، نحن نعمل
-                            جميعا لبناء مستقبل قوي وسلمي ومزدهر
-                        </p>
-                    </div>
-                    <div class=" w-1/4 ">
-                        <img class="mt-16 " src="mr.Ahmed.jpg " alt="cart 1 ">
-                    </div>
-                </div>
-            </div>
-            <div class=" w-full bg-green-600 mt-12 p-4 flex justify-between ">
-                <div>
-                    <p class="a text-2xl text-white ">تواصل معنا</p>
-                </div>
-                <div class="flex space-x-4 ">
-                    <a href="mailto:info@example.com "><img class=" w-10 h-10 " src="email.svg " alt=" "></a>
-                    <a href="https://www.facebook.com/AJACOMPANY8/ "><img class=" w-10 h-10 " src="facebook-circular-logo.svg " alt=" "></a>
-                    <a href=" https://instagram.com/a.j.a_iq?utm_medium=copy_link "><img class=" w-10 h-10 " src="instagram.svg " alt=" "></a>
-                    <a href="https://wa.link/8gcq55 "><img class=" w-10 h-10 " src="whatsapp.svg " alt=" "></a>
-                </div>
-            </div>
+    </div>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+<script>
+    AOS.init({
+        duration: 1200,
+        debounceDelay: 50,
+    });
+</script>
+<script>
+    function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
 
-            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
-            <script>
-                AOS.init({
-                    duration: 1200,
-                    debounceDelay: 50,
-                });
-            </script>
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "أقرأ المزيد";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "أقل";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
+
 </body>
-
-</html>
 
 </html>

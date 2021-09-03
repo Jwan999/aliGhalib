@@ -1,43 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="603ec8aa-1faa-4c9f-be28-41632284c11f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1x/Asset 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/About us page-amico.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aja.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Create-rafiki.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goal-amico.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goal-bro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG_2694.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rectangle 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rectangle 2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Street Food-amico (1).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Street Food-pana (2).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The Logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facebook-circular-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr.Ahmed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swiper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwindcss.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/undraw_street_food_hm5i.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whatsapp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/A j a company.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/A j a company.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rectangle 1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Rectangle 1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rectangle 2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Rectangle 2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/The Logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email.svg" beforeDir="false" afterPath="$PROJECT_DIR$/email.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-circular-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/facebook-circular-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +56,61 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ali" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="A j a company" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ali.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="A j a company" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,10 +121,37 @@
       <option name="presentableId" value="Default" />
       <updated>1623237823530</updated>
       <workItem from="1623237836956" duration="266000" />
+      <workItem from="1623564811917" duration="1719000" />
+      <workItem from="1623566594124" duration="387000" />
+      <workItem from="1623782825059" duration="227000" />
+      <workItem from="1624170412547" duration="1331000" />
+      <workItem from="1624172331998" duration="1150000" />
+      <workItem from="1624258609989" duration="1726000" />
+      <workItem from="1624260384641" duration="1073000" />
+      <workItem from="1624644356507" duration="2285000" />
+      <workItem from="1630701709874" duration="1793000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="337" height="388" key="GridCell.Tab.0.bottom" timestamp="1624645521991">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="337" height="388" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624645521991" />
+    <state width="337" height="388" key="GridCell.Tab.0.center" timestamp="1624645521990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="337" height="388" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624645521990" />
+    <state width="337" height="388" key="GridCell.Tab.0.left" timestamp="1624645521990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="337" height="388" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624645521990" />
+    <state width="337" height="388" key="GridCell.Tab.0.right" timestamp="1624645521990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="337" height="388" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624645521990" />
   </component>
 </project>
